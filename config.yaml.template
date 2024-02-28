@@ -1,0 +1,3 @@
+gcp_project_id: "gcp-project-id"
+vertex_endpoint_id: "endpoint-id"
+dotenv_path: 'path/to/env'

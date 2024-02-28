@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Input Form</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h2>Input Features for Model</h2>
+        <div class="columns-container">
+            <div class="column form-container">      
+                <div class="column results-container">
+                    <div id="result">
+                        <h3>Prediction</h3>
+                        <span id="resultValue"></span>
+                    </div>
+        
+                    <div id="resultRuntime">
+                        <h3>Runtime (s)</h3>
+                        <span id="resultRuntimeValue"></span>
+                    </div>
+                </div>
+                <form id="modelInputForm">
+                    <input type="button" value="Submit" onclick="submitForm()"><br>
+
+                    <label for="duration">duration:</label>
+                    <input type="text" id="duration" name="duration" value="100">
+            
+                    <label for="poutcome">poutcome:</label>
+                    <input type="text" id="poutcome" name="poutcome" value="success">
+            
+                    <label for="pdays">pdays:</label>
+                    <input type="text" id="pdays" name="pdays" value="1">
+            
+                    <label for="housing">housing:</label>
+                    <input type="text" id="housing" name="housing" value="yes">
+            
+                    <label for="previous">previous:</label>
+                    <input type="text" id="previous" name="previous" value="1">
+            
+                    <label for="marital">marital:</label>
+                    <input type="text" id="marital" name="marital" value="married">
+            
+                    <label for="job">job:</label>
+                    <input type="text" id="job" name="job" value="management">
+            
+                    <label for="campaign">campaign:</label>
+                    <input type="text" id="campaign" name="campaign" value="10">
+            
+                    <label for="education">education:</label>
+                    <input type="text" id="education" name="education" value="tertiary">
+            
+                    <label for="age">age:</label>
+                    <input type="text" id="age" name="age" value="29">
+            
+                    <label for="balance">balance:</label>
+                    <input type="text" id="balance" name="balance" value="50000">
+            
+                    <label for="default">default:</label>
+                    <input type="text" id="default" name="default" value="no">
+            
+                    <label for="loan">loan:</label>
+                    <input type="text" id="loan" name="loan" value="no">
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="static/javascript/form.js"></script>
+</body>
+</html>

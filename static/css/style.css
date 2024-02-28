@@ -1,0 +1,53 @@
+/* Main layout styles */
+.main-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: auto; /* Center the container */
+    padding: 20px;
+}
+
+.columns-container {
+    display: flex; /* This creates the side-by-side column layout */
+    justify-content: space-between; /* This adds space between the two columns */
+}
+
+.column {
+    flex: 1; /* This makes each column take up equal space */
+    margin: 0 10px; /* This adds some space between the columns */
+}
+
+
+/* Style for the form container */
+.form-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the results container */
+.results-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Additional styles for spacing and layout */
+#modelInputForm label,
+#modelInputForm input,
+#modelInputForm input[type="button"] {
+    margin-bottom: 10px; /* Space between form elements */
+    width: 100%; /* Ensure elements use full width of the form column */
+}
+
+#modelInputForm input[type="button"] {
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+}
+
+#result h2, #resultRuntime h2 {
+    margin-top: 0; /* Remove top margin from result headings */
+}
+
+.result-item span {
+    font-weight: bold; /* Make result item labels bold */
+}
